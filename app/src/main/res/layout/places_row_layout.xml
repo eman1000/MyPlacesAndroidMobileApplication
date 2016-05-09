@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="160dp"
+    android:id="@+id/placesFrame"
+    android:background="@drawable/harare"
+    android:scaleType="fitCenter">
+
+
+<ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/flagImage"
+        android:src="@drawable/zimflag"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harare"
+        android:id="@+id/cityName"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#ffffff"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Zimbabwe"
+        android:id="@+id/countryName"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="right|center_vertical"
+        android:src="@drawable/forwardarrow"
+        android:layout_marginRight="15dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="left|center_vertical"
+        android:src="@drawable/openheart"
+        android:layout_marginLeft="15dp" />
+</FrameLayout>
